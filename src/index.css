@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: NotoSansReg;
+  src: url('../public/NotoSans-Regular.ttf');
+  src: url('../public/NotoSans-Bold.ttf')
+}
+
+body {
+  font-family: 'NotoSansReg', sans-serif;
+}
+
+
