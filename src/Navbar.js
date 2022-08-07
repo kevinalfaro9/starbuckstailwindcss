@@ -24,12 +24,12 @@ const Navbar = () => {
       {/* Flex Item 2 */}
       <div className="hidden md:block">
         <ul className="flex font-bold text-[14px] items-center gap-3">
-          <div className='flex items-center gap-4'>
+          <div className='flex items-center gap-4 whitespace-nowrap'>
             <FaMapMarkerAlt className="w-5 h-5"/>
             <li className='mr-4'>Find a store</li>
           </div>
-          <li><button className="border-black border-2 rounded-full px-5 py-1">Sign in</button></li>
-          <li><button className="border-white bg-black text-white border-2 rounded-full px-5 py-1 mr-4">Join now</button></li>
+          <li><button className="border-black border-2 rounded-full px-5 py-1 whitespace-nowrap">Sign in</button></li>
+          <li><button className="border-white bg-black text-white border-2 rounded-full px-5 py-1 mr-4 whitespace-nowrap">Join now</button></li>
         </ul>
       </div>
 

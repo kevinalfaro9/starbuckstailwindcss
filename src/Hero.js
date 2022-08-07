@@ -89,7 +89,7 @@ const Hero = () => {
               The new Cookies & Cream Cake Pop is a happy mix of chocolate cake,
               crumbled cookies and white chocolaty icing.
             </p>
-            <button className='btn rounded-full px-4 py-1 border-2 cursor-pointer hover:bg-gray-200'>Order Now</button>
+            <button className='btn rounded-full px-4 py-1 border-2 cursor-pointer hover:bg-gray-200 hover:text-black'>Order Now</button>
           </div>
         </div>
       </div>
